@@ -1,0 +1,34 @@
+/*
+* -----------------------------------------------------------------------------
+* COMPONENT : EVENT
+*-----------------------------------------------------------------------------
+*/
+
+@include block('event') {
+    height: 50vh;
+    padding-bottom: 150px;
+
+    @include element('title') {
+         font-family: $main-font;
+         font-weight: bold;
+         font-size: 2em;
+    }
+
+    @include element('date') {
+
+    }
+
+    @include element('category') {
+
+    }
+
+    @include element('img') {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @include element('content') {
+
+    }
+}

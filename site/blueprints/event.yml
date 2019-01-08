@@ -1,0 +1,42 @@
+title: Event
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  date:
+    label: Date
+    type: date
+    format: YYYY/MM/DD
+
+  category:
+    label: Category
+    type: radio
+    options:
+      society: Society
+      programming: Programming
+      corporate: Corporate
+      technology: Technology
+      browser: Browser
+      marketing: Marketing
+      design: Design
+      law: Law
+      software: Software
+
+  image:
+    label: Image
+    type: image
+
+  url:
+    label: En savoir plus
+    type: url
+
+  content:
+    label: Content
+    type: textarea

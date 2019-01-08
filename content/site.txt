@@ -1,0 +1,9 @@
+Title: The recent history of the web
+
+----
+
+Author: Auguste Couecou
+
+----
+
+Description: This timeline traces the history of the web from the 70s to today.

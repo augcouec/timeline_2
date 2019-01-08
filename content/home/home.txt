@@ -1,0 +1,9 @@
+Title: Accueil
+
+----
+
+Intro: The Web's Timeline
+
+----
+
+Text: This timeline traces the history of the web from the 70s to today.

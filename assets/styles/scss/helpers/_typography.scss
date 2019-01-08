@@ -1,0 +1,36 @@
+/*
+* -----------------------------------------------------------------------------
+* FONTS
+*-----------------------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: "quicksand";
+    src: 
+        url("/assets/fonts/Quicksand-Regular.ttf") format("ttf"),
+        url("/assets/fonts/Quicksand-Bold.ttf") format("ttf")
+    
+}
+@font-face {
+    font-family: "worksand";
+    src: 
+        url("/assets/fonts/WorkSans-Regular.ttf") format("ttf"),
+        url("/assets/fonts/WorkSans-Bold.ttf") format("ttf"),
+        url("/assets/fonts/WorkSans-SemiBold.ttf") format("ttf"),
+        url("/assets/fonts/WorkSans-ExtraBold.ttf") format("ttf")
+}
+
+/*
+* -----------------------------------------------------------------------------
+* TYPOGRAPHY
+*-----------------------------------------------------------------------------
+*/
+
+
+h2 {
+                font-family: $main-font;
+                font-weight: bold;
+                font-size: 2em;
+}
+
+
