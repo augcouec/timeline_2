@@ -4,10 +4,8 @@
 *-----------------------------------------------------------------------------
 */
 
-
-$main-font: 'quicksand';
-$title-font: 'worksans';
-
+$main-font: 'quicksand', monospace;
+$title-font: 'worksans', monospace;
 $bold: bold;
 
 /*
@@ -17,6 +15,7 @@ $bold: bold;
 */
 
 $black: black;
+$grey: #C7C7C7C7;
 
 /*
 * -----------------------------------------------------------------------------
