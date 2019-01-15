@@ -2,25 +2,13 @@
 
     <main class="main page-timeline">
 
-        <div class="sidebar">
-
-            <div class="filters">
-
-                <?php snippet('filter.categories') ?>
-
-                <?php snippet('filter.tags') ?>
-
-            </div>
-
-        </div>
-
-        <div class="container container--offset">
+        <div class="container ">
 
             <section id="timeline">
 
-                <ul id="listing-events" class="listing-events">
+                <div id="listing-events" class="listing-events">
                     <?php snippet('event') ?>
-                </ul>
+                </div>
 
             </section>
 

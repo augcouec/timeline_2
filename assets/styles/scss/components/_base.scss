@@ -10,15 +10,12 @@ body {
 }
 
 section {
-    display: inline-block;
     width: 100%;
 }
 
 @include block('container') {
     width: 100%;
+    margin: 3%;
 
-    @include modifier('offset') {
-        margin-left: 25%;
-    }
 }
 
