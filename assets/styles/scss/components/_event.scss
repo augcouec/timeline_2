@@ -5,13 +5,12 @@
 */
 
 @include block('event') {
-    height: 50vh;
-    width: 33%;
-    padding-bottom: 150px;
-    background-color: #333333;
+    width: 25%;
+    height: 30vh;
+    border: #000 solid 8px;
     position: static !important;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin:2%;
+
 
 
     @include element('title') {
@@ -20,7 +19,7 @@
             font-size: 30px;
             font-family: $title-font;
             font-weight: $bold;
-            color: $white;
+            color: $black;
         }
     }
 

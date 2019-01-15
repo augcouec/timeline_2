@@ -10,4 +10,5 @@
 
 @include block('listing-events') {
     display: flex;
+    flex-wrap: wrap;
 }
