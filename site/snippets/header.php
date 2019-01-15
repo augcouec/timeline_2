@@ -16,9 +16,11 @@
     <header class="header">
 
         <div class="header__branding">
-            <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
+            <!-- <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a> -->
+            <?php snippet('branding_menu') ?>
         </div>
 
         <?php snippet('menu') ?>
+
 
     </header>
