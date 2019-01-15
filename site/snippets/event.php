@@ -30,11 +30,11 @@
             </div>
         <?php endif ?>
 
-        <?php if ($image = $event->image()) : ?>
+        <!-- <?php if ($image = $event->image()) : ?>
             <div class="event__img">
                 <img class="event__img" src="<?= $image->url() ?>" alt="<?= $image->alt_text()->html() ?>"/>
             </div>
-        <?php endif ?>
+        <?php endif ?> -->
 
 
 
