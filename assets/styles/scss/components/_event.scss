@@ -7,13 +7,17 @@
 @include block('event') {
     height: 50vh;
     padding-bottom: 150px;
+    display: flex;
 
     @include element('title') {
-
+        font-size: 30px;
+        font-family: $title-font;
+        font-weight: $bold;
     }
 
     @include element('date') {
         color: $grey;
+
     }
 
     @include element('category') {
