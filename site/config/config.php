@@ -16,6 +16,9 @@ for more information: http://getkirby.com/license
 */
 
 c::set('license', 'put your license key here');
+c::set('algolia.app', 'LNFZI38E6K');
+c::set('algolia.key', '167d913a4fbecb50679c89d7607acbba');
+c::set('algolia.index', 'dev_NAME');
 
 /*
 

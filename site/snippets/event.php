@@ -6,7 +6,7 @@
     <div class="event all-categories ">
 
         <div class="event__title">
-            <h2>
+            <h2 class="event__title__font">
                 <?= $event->title()->html() ?>
             </h2>
         </div>
@@ -24,17 +24,19 @@
             </div>
         <?php endif ?>
 
+                <?php if ($content = $event->content()->get('content')) : ?>
+            <div class="event__content">
+                <?= html($content) ?>
+            </div>
+        <?php endif ?>
+
         <?php if ($image = $event->image()) : ?>
             <div class="event__img">
                 <img class="event__img" src="<?= $image->url() ?>" alt="<?= $image->alt_text()->html() ?>"/>
             </div>
         <?php endif ?>
 
-        <?php if ($content = $event->content()->get('content')) : ?>
-            <div class="event__content">
-                <?= html($content) ?>
-            </div>
-        <?php endif ?>
+
 
     </div>
 
