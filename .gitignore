@@ -13,6 +13,10 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
+/assets/styles/css/main.min.css
+!/assets/styles/css/main.min.css
+
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
