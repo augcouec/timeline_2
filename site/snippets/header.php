@@ -16,7 +16,6 @@
     <header class="header">
 
         <div class="header__branding">
-            <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
         </div>
 
         <?php snippet('menu') ?>
