@@ -1,9 +1,9 @@
-Title: Accueil
+Title: Welcome
 
 ----
 
-Intro: The Web's Timeline
+Intro: THE EVOLUTION OF THE WEB
 
 ----
 
-Text: This timeline traces the history of the web from the 70s to today.
+Text: This chronological frieze will serve you to understand the construction of the Internet and machines as we use them today. We went back to the first significant date in the history of the internet in 1969. You can navigate through the events to target the major innovations of the decade.

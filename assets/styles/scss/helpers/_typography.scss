@@ -4,21 +4,12 @@
 *-----------------------------------------------------------------------------
 */
 
-@font-face {
-    font-family: "quicksand";
-    src: 
-        url("/assets/fonts/Quicksand-Regular.ttf") format("ttf"),
-        url("/assets/fonts/Quicksand-Bold.ttf") format("ttf")
-    
-}
-@font-face {
-    font-family: "worksand";
-    src: 
-        url("/assets/fonts/WorkSans-Regular.ttf") format("ttf"),
-        url("/assets/fonts/WorkSans-Bold.ttf") format("ttf"),
-        url("/assets/fonts/WorkSans-SemiBold.ttf") format("ttf"),
-        url("/assets/fonts/WorkSans-ExtraBold.ttf") format("ttf")
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700,800');
+
+
 
 /*
 * -----------------------------------------------------------------------------
@@ -27,10 +18,12 @@
 */
 
 
+
 h2 {
     font-family: $title-font;
     font-weight: bold;
     font-size: 1.5em;
 }
+
 
 
