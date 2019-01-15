@@ -7,7 +7,7 @@
 @include block('event') {
     width: 25%;
     height: 30vh;
-    background-color: #333333;
+    border: #000 solid 8px;
     position: static !important;
     margin:2%;
 
@@ -19,7 +19,7 @@
             font-size: 30px;
             font-family: $title-font;
             font-weight: $bold;
-            color: $white;
+            color: $black;
         }
     }
 
