@@ -2,7 +2,7 @@
 
 function getCatColor($cat, $site) {
     $categoryPage = $site->page("categories")->children()->findBy("slug", $cat);
-    // $color = $categoryPage->content->get(‘color’);
+    // $color = $categoryPage->content->get('color');
     // var_dump($color); die;
 }
 
