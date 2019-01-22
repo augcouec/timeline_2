@@ -1,0 +1,16 @@
+title: category
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  color: 
+    label: couleur_cat
+    type: text
+
+  icon:
+    label: icon_cat
+    type: image
+

@@ -5,32 +5,55 @@
 */
 
 @include block('event') {
-    width: 25%;
-    height: 30vh;
-    border: #000 solid 8px;
+    width: 40%;
     position: static !important;
     margin:2%;
-
-
-
-    @include element('title') {
-
-        @include element('font') {
-            font-size: 30px;
-            font-family: $title-font;
-            font-weight: $bold;
-            color: $black;
-        }
+    margin-bottom: 8%;
+ 
+    
+    hr {
+    display: inline-block;
+    width: 50px;
+    background-color: #000000;
+    height: 4px;
+    border: 0;
     }
 
+    @include element('info'){
+    }
+    
     @include element('date') {
         color: $grey;
+        @include element('year'){
+            font-family: $title-font;
+            font-size: 3em;
+            font-weight: $bold;
+            color: $primary;
+        }
+        @include element('month') {
+            font-family: $title-font;
+            font-size: 1,5em;
+            font-weight: 600;
+            color: $primary;
+        }
+            @include element('category') {}
 
     }
+    @include element('card') {
+        border: #333333 solid 8px;
+        padding: 10%;
+            height:50vh;
+        display: flex;
+    flex-direction: column;
+}
 
-    @include element('category') {
-
-    }
+     @include element('title') {       
+             font-size: 30px;
+             font-family: $title-font;
+             font-weight: $bold;
+             color: $primary;         
+             margin-bottom: 10%;
+     }
 
     @include element('img') {
         width: 100%;
@@ -39,6 +62,8 @@
     }
 
     @include element('content') {
+        font-size: 20px;
 
     }
+    
 }

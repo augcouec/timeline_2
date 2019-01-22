@@ -16,6 +16,6 @@ section {
 @include block('container') {
     width: 100%;
     margin: 3%;
-
+    display: flex;
 }
 
