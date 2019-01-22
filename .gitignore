@@ -13,7 +13,6 @@ Icon
 /site/cache/*
 
 /assets/styles/css/main.min.css
-!/assets/styles/css/main.min.css
 
 
 # -------------SECURITY-------------
