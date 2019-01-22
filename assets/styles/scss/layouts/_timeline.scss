@@ -11,4 +11,7 @@
 @include block('listing-events') {
     display: flex;
     flex-wrap: wrap;
+    height: auto !important;
+    margin-top: 4%;
+    justify-content: space-around;
 }
