@@ -1,10 +1,9 @@
 <?php
 
-function getCatColor($cat, $site) {
-    $categoryPage = $site->page("categories")->children()->findBy("slug", $cat);
-    // $color = $categoryPage->content->get('color');
-    // var_dump($color); die;
-}
+// function getCatColor($cat, $site) {
+//     $categoryPage = $site->page("categories")->children()->findBy("slug", $cat);
+//     $color = $categoryPage->content()->get('color');
+// }
 
 ?> 
 
@@ -35,7 +34,6 @@ function getCatColor($cat, $site) {
         <?php if ($category = $event->content()->get('category')) : ?>
             <div class="event__category">
                 <?= html($category) ?>
-                 <?php getCatColor($category,$site) ?>
 
             </div>
         <?php endif ?>

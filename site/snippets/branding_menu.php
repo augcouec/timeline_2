@@ -1,3 +1,3 @@
 <nav>
-  <img src="content/1-timeline/logo-new.svg" alt="Logo ECV Digital">
+  <a href="http://www.timeline-blue.ecvdigitalbdx.fr/"> <img src="../assets/images/logo-new.svg" alt="Logo ECV Digital"></a>
 </nav>
