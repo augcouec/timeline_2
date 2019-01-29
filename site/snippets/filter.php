@@ -43,23 +43,23 @@
         <li>
           <ul>
             <li>
-              <input type="checkbox" name="70s" value="">
+              <input type="checkbox" id="70s" name="70s" value="">
               <label for="70s">70's</label>
             </li>
             <li>
-              <input type="checkbox" name="80s" value="">
+              <input type="checkbox" id="80s" name="80s" value="">
               <label for="80s">80's</label>
             </li>
             <li>
-              <input type="checkbox" name="90s" value="">
+              <input type="checkbox" id="90S" name="90s" value="">
               <label for="90s">90's</label>
             </li>
             <li>
-              <input type="checkbox" name="2000s" value="">
+              <input type="checkbox" id="2000s" name="2000s" value="">
               <label for="2000s">2000's</label>
             </li>
             <li>
-              <input type="checkbox" name="2010s" value="">
+              <input type="checkbox" id="2010s" name="2010s" value="">
               <label for="2010s">2010's</label>
             </li>
           </ul>
