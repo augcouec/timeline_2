@@ -21,8 +21,8 @@ fields:
     options:
       society: Society
       programming: Programming
-      corporate: Corporate
-      technology: Technology
+      company: Company
+      hardware: Hardware
       browser: Browser
       marketing: Marketing
       design: Design

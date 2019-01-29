@@ -9,7 +9,7 @@
       <hr>
       <h2><?= $page->intro()->html() ?></h2>
       <p class="text wrap"><?= $page->text()->html() ?></p>
-      <a class="effect1" href="#">
+      <a class="effect1" href="timeline">
         Go to the Timeline
         <span class="bg"></span>
       </a>

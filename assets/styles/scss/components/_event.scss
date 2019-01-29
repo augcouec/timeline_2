@@ -47,13 +47,22 @@
     flex-direction: column;
 }
 
-     @include element('title') {       
+
+    
+
+     @include element('title') {
+
+       
              font-size: 30px;
              font-family: $title-font;
              font-weight: $bold;
              color: $primary;         
              margin-bottom: 10%;
+
+    
      }
+
+
 
     @include element('img') {
         width: 100%;
