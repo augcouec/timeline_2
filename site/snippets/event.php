@@ -8,7 +8,9 @@
 ?> 
 
 <?php // Fetch all events ?>
-<?php $events = $page->children()->visible(); ?>
+<?php $events = $page->children()->visible()->sortBy('date', 'desc');; ?>
+<?php 
+?>
 
 <?php foreach ($events as $event): ?>
 
