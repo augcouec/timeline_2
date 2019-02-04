@@ -71,8 +71,8 @@
     }
 
     @include element('content') {
-        font-size: 20px;
-
+ height: 150px;
+ overflow-y: scroll;
     }
     
 }
